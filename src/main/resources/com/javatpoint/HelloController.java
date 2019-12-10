@@ -6,6 +6,8 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping(value="/")
 public class HelloController {
 
+	
+	
 	@RequestMapping(method=RequestMethod.GET)
 	public ModelAndView welcome() {
 		return new ModelAndView("NewFile","welcomeMessage","Hello Neeraj")
